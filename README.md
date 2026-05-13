@@ -19,7 +19,7 @@ npm i -D @lsf2e/template
 
 ## License
 
-Published under the [MIT](./LICENSE) License © 2026-PRESENT. Made by [@lsf2e](https://github.com/lsf2e) and [community](https://github.com/lsf2e/template/graphs/contributors) 💛
+[MIT](./LICENSE) License © 2026-PRESENT [Local Services Front to End](https://github.com/lsf2e)
 <br><br>
 <a href="https://github.com/lsf2e/template/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=lsf2e/template" />
