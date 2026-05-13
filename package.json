@@ -6,24 +6,27 @@
   "bugs": {
     "url": "https://github.com/lsf2e/template/issues"
   },
+  "license": "MIT",
+  "author": "Local Services Front to End  <lsf2e@bjmhe.me>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lsf2e/template.git"
   },
-  "license": "MIT",
-  "author": "Local Services Front to End  <lsf2e@bjmhe.me>",
+  "files": [
+    "dist"
+  ],
   "type": "module",
+  "types": "dist/index.d.mts",
   "exports": {
     ".": "./dist/index.mjs",
     "./package.json": "./package.json"
   },
-  "types": "dist/index.d.mts",
-  "files": [
-    "dist"
-  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsdown",
-    "format": "prettier -w .",
+    "format": "oxfmt",
     "lint": "eslint --cache",
     "prepublishOnly": "pnpm run build",
     "release": "bumpp",
@@ -35,12 +38,9 @@
     "@typescript/native-preview": "7.0.0-dev.20260512.1",
     "bumpp": "11.1.0",
     "eslint": "10.3.0",
-    "prettier": "3.8.3",
+    "oxfmt": "0.48.0",
     "tsdown": "0.22.0",
     "tsdown-preset-sxzz": "0.6.0"
   },
-  "packageManager": "pnpm@11.0.9",
-  "publishConfig": {
-    "access": "public"
-  }
+  "packageManager": "pnpm@11.0.9"
 }
