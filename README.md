@@ -1,4 +1,4 @@
-# @sxzz/prettier-config
+# @lsf2e/template
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -8,32 +8,21 @@ Prettier config.
 ## Install
 
 ```bash
-npm i -D @sxzz/prettier-config
+npm i -D @lsf2e/template
 ```
 
 ## Features
 
-- 2 spaces
-- No semicolons
-- Single quotes
-- Trailing commas
-- Ignore common files (`dist`, `pnpm-lock.yaml`...)
-
-## Sponsors
-
-<p align="center">
-  <a href="https://cdn.jsdelivr.net/gh/sxzz/sponsors/sponsors.svg">
-    <img src='https://cdn.jsdelivr.net/gh/sxzz/sponsors/sponsors.svg'/>
-  </a>
-</p>
+- Feature 1
+- Feature 2
 
 ## License
 
-[MIT](./LICENSE) License © 2023-PRESENT [Kevin Deng](https://github.com/sxzz)
+[MIT](./LICENSE) License © 2026-PRESENT [Local Services Front to End](https://github.com/lsf2e)
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/@sxzz/prettier-config.svg
-[npm-version-href]: https://npmjs.com/package/@sxzz/prettier-config
-[npm-downloads-src]: https://img.shields.io/npm/dm/@sxzz/prettier-config
-[npm-downloads-href]: https://www.npmcharts.com/compare/@sxzz/prettier-config?interval=30
+[npm-version-src]: https://img.shields.io/npm/v/@lsf2e/template.svg
+[npm-version-href]: https://npmjs.com/package/@lsf2e/template
+[npm-downloads-src]: https://img.shields.io/npm/dm/@lsf2e/template
+[npm-downloads-href]: https://www.npmcharts.com/compare/@lsf2e/template?interval=30
