@@ -7,7 +7,7 @@
     "url": "https://github.com/lsf2e/template/issues"
   },
   "license": "MIT",
-  "author": "Local Services Front to End  <lsf2e@bjmhe.me>",
+  "author": "Local Services Front to End <lsf2e@bjmhe.me>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lsf2e/template.git"
@@ -31,7 +31,7 @@
     "lint:fix": "oxlint --fix",
     "prepublishOnly": "pnpm run build",
     "release": "bumpp",
-    "typecheck": "tsgo --noEmit"
+    "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "@types/node": "25.7.0",
