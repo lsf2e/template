@@ -4,7 +4,7 @@
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![Unit Test][unit-test-src]][unit-test-href]
 
-Prettier config.
+A template for a new project.
 
 ## Install
 
@@ -19,7 +19,11 @@ npm i -D @lsf2e/template
 
 ## License
 
-[MIT](./LICENSE) License © 2026-PRESENT [Local Services Front to End](https://github.com/lsf2e)
+Published under the [MIT](./LICENSE) License © 2026-PRESENT. Made by [@lsf2e](https://github.com/lsf2e) and [community](https://github.com/lsf2e/template/graphs/contributors) 💛
+<br><br>
+<a href="https://github.com/lsf2e/template/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=lsf2e/template" />
+</a>
 
 <!-- Badges -->
 
