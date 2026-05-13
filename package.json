@@ -1,18 +1,19 @@
 {
   "name": "@lsf2e/template",
+  "type": "module",
   "version": "0.0.0",
+  "packageManager": "pnpm@11.0.9",
   "description": "A template for a new project",
+  "author": "Local Services Front to End <lsf2e@bjmhe.me>",
+  "license": "MIT",
   "homepage": "https://github.com/lsf2e/template#readme",
-  "bugs": {
-    "url": "https://github.com/lsf2e/template/issues"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lsf2e/template.git"
   },
-  "license": "MIT",
-  "author": "Local Services Front to End <lsf2e@bjmhe.me>",
-  "type": "module",
+  "bugs": {
+    "url": "https://github.com/lsf2e/template/issues"
+  },
   "exports": {
     ".": "./dist/index.mjs",
     "./package.json": "./package.json"
@@ -44,7 +45,6 @@
     "typescript": "6.0.3",
     "vitest": "4.1.6"
   },
-  "packageManager": "pnpm@11.0.9",
   "publishConfig": {
     "access": "public"
   }
